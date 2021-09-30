@@ -1,0 +1,6 @@
+(a) Which sort had the best performance empirically?
+The selection sort
+(b) Why might this be the case? Provide a reason.
+Despite the selection and bubble sort taking O(n^2) time for best, average and worst case (with bubble sort taking O(n) time in the best case scenario), the number of swaps affects the time taken more so, as writing takes more time than reading. The selection sort has smaller time complexities compared to the bubble sort algorithms when it comes to the number of swaps it makes, with O(N) swaps for the average. Bubble sort had O(N^2) swaps for the average case.
+For the worst case, selection sort has O(N) swaps, whilst bubble sort has O(N^2) swaps. They are equal with O(1) swaps in best case.
+Considering that the best case would be rare with our data set, it is easy to presume that the data set was either in the worst or average case for this lab, therefore selection sort outshone the bubble sort algorithms with regards to performance.
